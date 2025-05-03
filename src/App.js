@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="heading">
-        Instalily Case Study
+        AI-powered sales intelligence platform
       </div>
         <ChatWindow/>
     </div>
