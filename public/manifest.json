@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Instalily Case Study",
+  "name": "Chronicles of Fate - RPG Storytelling",
   "version": "1.0",
-  "description": "AI Assistant",
+  "description": "An immersive RPG storytelling multi-agent system",
   "side_panel": {
     "default_path": "index.html"
   },

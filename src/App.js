@@ -6,10 +6,12 @@ function App() {
 
   return (
     <div className="App">
+      <div className="animated-bg"></div>
       <div className="heading">
-        AI-powered sales intelligence platform
+        <span className="title-text">Chronicles of Fate</span>
+        <span className="subtitle">RPG Storytelling Multi-Agent System</span>
       </div>
-        <ChatWindow/>
+      <ChatWindow/>
     </div>
   );
 }

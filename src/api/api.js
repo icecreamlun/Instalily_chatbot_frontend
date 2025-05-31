@@ -16,16 +16,11 @@ export const getAIMessage = async (userQuery) => {
 
     const data = await response.json();
     return {
-      role: "assistant",
-      content: data.answer,
-      docs: data.docs,
-      doc_ids: data.docs.map(doc => doc.doc_id),
-      query: userQuery
+      content: data.answer
     };
   } catch (error) {
     console.error('Error fetching AI message:', error);
     return {
-      role: "assistant",
       content: "Sorry, there was an error connecting to the AI service."
     };
   }
