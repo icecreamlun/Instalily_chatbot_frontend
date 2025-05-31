@@ -17,7 +17,7 @@ export const getAIMessage = async (userQuery) => {
     console.log('Sending request with payload:', JSON.stringify(payload, null, 2));
     console.log('Request options:', JSON.stringify(options, null, 2));
 
-    const response = await fetch('https://d76c-158-106-193-162.ngrok-free.app/api/v1/run/d095b2a5-e240-4b6c-a701-e6d3b79b3f2e', options);
+    const response = await fetch('https://9cec-158-106-193-162.ngrok-free.app/api/v1/run/aa5b86d1-fc21-4439-a736-dbce3a4a1961?stream=false', options);
     
     console.log('Response status:', response.status);
     console.log('Response headers:', Object.fromEntries(response.headers.entries()));
