@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chronicles of Fate - RPG Storytelling",
+  "version": "1.0",
+  "description": "An immersive RPG storytelling multi-agent system",
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "permissions": ["sidePanel", "tabs", "activeTabs", "scripting"],
+  "host_permissions": ["https://*/*", "http://*/*","http://*/*/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
